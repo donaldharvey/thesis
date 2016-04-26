@@ -1,0 +1,17 @@
+---
+title: Coarse-to-fine superpixel segmentation with a fast adaptive energy-based initialisation
+numbersections: true
+abstract: |
+    Superpixel segmentation is an important pre-processing step in computer vision that reduces the complexity of the input image. We formalise this as an approximation problem to minimize the reconstruction error, the sum of squared colour deviations over all pixels. 
+    A recent energy-based approach to superpixel segmentation [@yao2015] using a coarse-to-fine optimisation methodology is investigated in detail, then extended using a fast adaptive energy-based initialisation. An extensive high-performance benchmarking suite using C++ is developed to compare this to past approaches.
+    Our new iCtF algorithm beats the state-of-the-art on the reconstruction error, and performs similarly to the state-of-the-art on other metrics. We have submitted this work to the proceedings of the 14th European Conference on Computer Vision [@us].
+
+author: Donald S. F. Harvey
+toc: 1
+supervisor: |
+  Supervisor: Dr Vitaliy Kurlin
+documentclass: report
+bibliography: bib.bib
+csl: ieee.csl
+
+---
